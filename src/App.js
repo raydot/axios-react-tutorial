@@ -47,6 +47,19 @@ class App extends React.Component {
       }
     })
 
+    /*
+      This can also be written as a try/catch:
+      try {
+        //load blah
+        let userData = await API.get("foo")
+      } catch (e) {
+          console.log(`Oh noes!  Error: ${e}`)
+      }
+
+      The catch block is the perfect place to parse the returned error.  It's also
+      a great place to show your users an appropriate feedback message.
+    */
+
     // Parse the results for ease of use
     userData = userData.data.results[0]
 
