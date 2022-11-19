@@ -8,7 +8,7 @@
     "popper": "^1.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1",
+    "react-scripts": "5.0.1",
     "shards": "^1.0.3",
     "shards-react": "^1.0.3",
     "typescript": "^3.5.1"
